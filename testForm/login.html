@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <h1> Intern Login Page</h1>
+    </div>
+    <form>
+        <fieldset>
+
+            <div>
+                <label for="UserName">UserName </label>
+                <input required pattern="[A-z]{5,20}" type="text" aria-level="assertive" id="UserName" name="UserName">
+            </div>
+            <div>
+                <label for="password">Password </label>
+                <input required minlength="8" pattern="[A-z]{2,20}" type="password" aria-level="assertive" id="password"
+                    name="password" aria-describedby="password-minlength">
+
+            </div>
+            <button>Login</button>
+
+            <p>Want to be an intern? <a href="signup.html">Signup</a></p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

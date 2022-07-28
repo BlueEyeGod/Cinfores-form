@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <h1> Intern Signup Page</h1>
+    </div>
+    <form>
+    <fieldset>
+            <div>
+                <label for="FirstName">First Name (required)</label>
+                <input required type="text" id="FirstName" name="FirstName" Placeholder="First Name">
+            </div>
+
+            <div>
+                <label for="LastName">Last Name (required)</label>
+                <input required type="text" aria-level="assertive" id="LastName" name="LastName" Placeholder="Last Name">
+            </div>
+            <div>
+                <label for="email">Email (required)</label>
+                <input required type="email" aria-level="assertive" id="email" name="email" Placeholder="Email">
+            </div>
+            </div>
+            <div>
+                <label for="UserName">UserName (required)</label>
+                <input required  type="text" aria-level="assertive" id="UserName" name="UserName" Placeholder="User Name">
+            </div>
+            <div>
+                <label for="password">Password (required)</label>
+                <input required minlength="8"  type="password" aria-level="assertive" id="password"
+                    name="password" aria-describedby="password-minlength" Placeholder="Password">
+
+            </div>
+            <div>
+                <label for="c-Password"> Confirm Password (required)</label>
+                <input required minlength="8" type="password" id="c-password" aria-level="assertive"
+                    name="password" Placeholder="Confirm Password">
+            </div>
+            <button >Submit</button>
+            
+            <p>Already an intern? <a href="login.html">Login</a></p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
